@@ -5,7 +5,7 @@ pymysql to connect mysql, and use tk to build interface.
 # Python Version:
 At least python 2.7
 
-## Create database, table, and insert Data (via data.sql file)
+## Create database, table, and insert Data (via dump.sql file)
 You can execute dump.sql to create database, a table, and insert data.
 
 ## How to run the code
