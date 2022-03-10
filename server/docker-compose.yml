@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    ports:
+      - 8050:8050
+  db:
+    image: "mysql"
+    environment:
+      MYSQL_DATABASE: root
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3306:3306
